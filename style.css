@@ -1,1 +1,4 @@
-
+body {
+    background-image: url("assets/weather.jpg");
+    background-attachment: fixed;
+}
