@@ -74,8 +74,8 @@ function getForcast(input) {
 
 
 $('#home').click(function(){
-  // Window.location.href="../index.html"
-  $('#home').style.display = 'none' 
+  Window.location.href="../index.html"
+  // $('#home').style.display = 'none' 
 }); 
 
 

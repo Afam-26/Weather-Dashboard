@@ -1,8 +1,11 @@
+/* Body section */
+
 body {
     background-image: url("assets/weather.jpg");
     background-attachment: fixed ;
 }
 
+/* Current weather section */
 
 #currentWeather {
     background-color: #ededed;
@@ -15,6 +18,7 @@ body {
     margin-right: 0.5rem;
 }
 
+/* Future weather section */
 #fiveDayForecast {
     padding-left: 20px;
     
