@@ -14,15 +14,8 @@ body {
     margin-top: 0.5rem;
     margin-right: 0.5rem;
 }
-/* 
+
 #fiveDayForecast {
-    background-color: #ededed;
-    text-align: center;
-    margin-right: 0.5rem;
-    width: 65%;
-    float: right;
-    border-radius: 5px;
-    border: black;
-    border-style: solid;
-    display: flex;
-} */
+    padding-left: 20px;
+    
+} 
