@@ -1,9 +1,10 @@
 $(document).ready(function () {
-    
+
+  //AJAX CALL FOR CURRENT WEATHER
 $('#searchBtn').click(function () {
   let userInput = $('#city').val();
   let queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${userInput}&units=imperial&appid=a19feae6aba79b23ca90858cd79bfdb3`;
-  //AJAX CALL FOR CURRENT WEATHER
+  
   $.ajax({
     url: queryURL,
     type: 'GET',
@@ -32,9 +33,10 @@ $('#searchBtn').click(function () {
   });
 });
 
+ // AJAX CALL FOR FIVE DAY FORECAST
 function getForcast(input) {
     let fiveDayQueryURL = `https://api.openweathermap.org/data/2.5/forecast?q=${input}&units=imperial&appid=a19feae6aba79b23ca90858cd79bfdb3`;
-    // AJAX CALL FOR FIVE DAY FORECAST
+   
     $.ajax({
       url: fiveDayQueryURL,
       type: 'GET',
