@@ -10,6 +10,6 @@ This is a Weather Dashboard that uses third-party APIs to retrieve data and use 
 
 [Click here for link](https://afam-26.github.io/Weather-Dashboard/)
 
-## credit
+## Credit
 
 Brennan Predmore TA
